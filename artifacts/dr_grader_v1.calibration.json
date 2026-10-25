@@ -1,0 +1,121 @@
+{
+  "fitted_at": "2026-10-25T17:58:36.415662+00:00",
+  "temperature": 2.064168691635132,
+  "calibration_manifest_sha256": "b7fb31da1886664f2e7074453bacb60f4be7f3760da0c2fd26df9c29f6ba4844",
+  "before": {
+    "qwk": 0.9020389038107504,
+    "macro_f1": 0.6923471876864195,
+    "accuracy": 0.8376068376068376,
+    "per_class_recall": [
+      0.9888888888888889,
+      0.5882352941176471,
+      0.782608695652174,
+      0.5,
+      0.5555555555555556
+    ],
+    "confusion_matrix": [
+      [
+        178,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        20,
+        11,
+        1,
+        0
+      ],
+      [
+        1,
+        10,
+        72,
+        8,
+        1
+      ],
+      [
+        0,
+        1,
+        6,
+        9,
+        2
+      ],
+      [
+        0,
+        2,
+        6,
+        4,
+        15
+      ]
+    ],
+    "nll": 0.6065160793318156,
+    "brier": 0.2530038185173588,
+    "ece_15_bins": 0.07684283888238108,
+    "undergrade_by_at_least_two_rate": 0.02849002849002849,
+    "severe_to_grade_0_or_1_rate": 0.06666666666666667,
+    "referable_sensitivity": 0.8978102189781022,
+    "referable_specificity": 0.9345794392523364,
+    "samples": 351
+  },
+  "after": {
+    "qwk": 0.9020389038107504,
+    "macro_f1": 0.6923471876864195,
+    "accuracy": 0.8376068376068376,
+    "per_class_recall": [
+      0.9888888888888889,
+      0.5882352941176471,
+      0.782608695652174,
+      0.5,
+      0.5555555555555556
+    ],
+    "confusion_matrix": [
+      [
+        178,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        20,
+        11,
+        1,
+        0
+      ],
+      [
+        1,
+        10,
+        72,
+        8,
+        1
+      ],
+      [
+        0,
+        1,
+        6,
+        9,
+        2
+      ],
+      [
+        0,
+        2,
+        6,
+        4,
+        15
+      ]
+    ],
+    "nll": 0.48690120349763555,
+    "brier": 0.2453453450110128,
+    "ece_15_bins": 0.07454138977235535,
+    "undergrade_by_at_least_two_rate": 0.02849002849002849,
+    "severe_to_grade_0_or_1_rate": 0.06666666666666667,
+    "referable_sensitivity": 0.8978102189781022,
+    "referable_specificity": 0.9345794392523364,
+    "samples": 351
+  },
+  "test_images_accessed": false,
+  "scope": "Calibration fit on this development distribution; deployment-shift calibration not established"
+}
